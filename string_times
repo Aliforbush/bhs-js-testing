@@ -1,0 +1,7 @@
+function string_times (num, string) {
+    for (let i = 0; i < num/2; i++) {
+        string = string + string;
+    }
+    return string;
+    
+}
